@@ -1,0 +1,10 @@
+Add New Cron Job
+PHP command examples:
+General example:
+/usr/local/bin/php /home/edulog/public_html/path/to/cron/script
+
+queue
+/usr/local/bin/php /home/edulog/document-sub-system.edu-log.com/artisan queue:work --stop-when-empty >> /dev/null 2>&1
+
+sheduler
+/usr/local/bin/php /home/edulog/document-sub-system.edu-log.com/artisan schedule:run >> /dev/null 2>&1
